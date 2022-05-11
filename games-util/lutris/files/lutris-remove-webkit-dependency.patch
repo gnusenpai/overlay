@@ -1,0 +1,22 @@
+diff --git a/lutris/services/base.py b/lutris/services/base.py
+index a7e353e..a714c9e 100644
+--- a/lutris/services/base.py
++++ b/lutris/services/base.py
+@@ -11,7 +11,6 @@ from lutris.database import sql
+ from lutris.database.games import add_game, get_games
+ from lutris.database.services import ServiceGameCollection
+ from lutris.game import Game
+-from lutris.gui.dialogs.webconnect_dialog import WebConnectDialog
+ from lutris.gui.views.media_loader import download_media
+ from lutris.services.service_media import ServiceMedia
+ from lutris.util import system
+@@ -283,9 +282,6 @@ class OnlineService(BaseService):
+ 
+     def login(self, parent=None):
+         logger.debug("Connecting to %s", self.name)
+-        dialog = WebConnectDialog(self, parent)
+-        dialog.set_modal(True)
+-        dialog.show()
+ 
+     def is_authenticated(self):
+         """Return whether the service is authenticated"""

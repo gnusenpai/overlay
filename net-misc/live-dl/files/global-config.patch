@@ -1,0 +1,18 @@
+diff --git a/live-dl b/live-dl
+index 4d84bda..032435c 100755
+--- a/live-dl
++++ b/live-dl
+@@ -1498,11 +1498,11 @@ Options:
+ fi
+ 
+ # Check if we have config.yml
+-if ! [ -f config.yml ]; then
++if ! [ -f /etc/live-dl/config.yml ]; then
+   __info "$(__red "No config.yml, 'cp config.example.yml config.yml' and rerun this script.")"
+   exit 1;
+ else
+-  CONFIG_RAW=`cat config.yml | yq -r .`
++  CONFIG_RAW=`cat /etc/live-dl/config.yml | yq -r .`
+ fi
+ 
+ # Set default settings
