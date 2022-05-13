@@ -1,1 +1,1 @@
-mangohud-0.6.7.ebuild
+mangohud-0.6.7_p1.ebuild
