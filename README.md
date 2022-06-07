@@ -15,6 +15,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [media-video/obs-nvfbc](media-video/obs-nvfbc)
 - [net-libs/librist](net-libs/librist)
 - [net-misc/live-dl](net-misc/live-dl)
+- [net-vpn/wgnord](net-vpn/wgnord)
 - [sys-apps/bubblejail](sys-apps/bubblejail)
 - [x11-misc/BigBagKbdTrixXKB](x11-misc/BigBagKbdTrixXKB)
 
