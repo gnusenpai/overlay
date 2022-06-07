@@ -1,1 +1,1 @@
-bubblejail-0.5.3.ebuild
+bubblejail-0.6.1.ebuild
