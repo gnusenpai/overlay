@@ -21,6 +21,6 @@ RDEPEND="${DEPEND}"
 src_install() {
 	dodir "/var/lib/${PN}"
 	chmod 770 "${D}/var/lib/${PN}"
-	cp template.conf countries.txt "${D}/var/lib/${PN}"
+	cp template.conf countries.txt countries_iso31662.txt "${D}/var/lib/${PN}"
 	dobin wgnord
 }
