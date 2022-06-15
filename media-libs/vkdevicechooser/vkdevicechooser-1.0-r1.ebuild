@@ -19,3 +19,8 @@ BDEPEND="
 	dev-util/vulkan-headers
 	media-libs/vulkan-layers
 "
+
+src_prepare() {
+	default
+	sed -i 's/1.2.131/1.3.211/' vkdevicechooser.json
+}
