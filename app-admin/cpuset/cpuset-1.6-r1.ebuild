@@ -21,4 +21,5 @@ REQUIRED_USE=""
 
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 "
