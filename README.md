@@ -41,5 +41,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [sys-power/zenstates](sys-power/zenstates)
 - [virtual/linux-sources](virtual/linux-sources) (removes kernel dependencies)
 - [x11-drivers/nvidia-drivers-460.67](x11-drivers/nvidia-drivers)
+- [x11-misc/dunst-1.6.1](x11-misc/dunst)
 - [x11-wm/bspwm-9999](x11-wm/bspwm)
 - [x11-wm/mutter-9999](x11-wm/mutter)
