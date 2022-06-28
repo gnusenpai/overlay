@@ -37,15 +37,13 @@ src_compile() {
 		USE_CODEC_MP3=$(usex mp3 1 0) \
 		USE_CODEC_OPUS=$(usex opus 1 0) \
 		USE_CODEC_VORBIS=$(usex vorbis 1 0)
-
-	emake -C Misc/vq_pak
 }
 
 src_install() {
 	dobin Quake/vkquake
 
 	insinto /usr/share/games/vkquake
-	doins Misc/vq_pak/vkquake.pak
+	doins Quake/vkquake.pak
 }
 
 pkg_postinst() {
