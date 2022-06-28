@@ -47,3 +47,12 @@ src_install() {
 	insinto /usr/share/games/vkquake
 	doins Misc/vq_pak/vkquake.pak
 }
+
+pkg_postinst() {
+	einfo
+	einfo "Make sure to copy /usr/share/games/vkquake/vkquake.pak"
+	einfo "to ~/.vkquake!"
+	einfo
+	einfo "$ cp /usr/share/games/vkquake/vkquake.pak ~/.vkquake/"
+	einfo
+}
