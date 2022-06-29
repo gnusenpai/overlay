@@ -23,7 +23,7 @@ IMGUI_SRC_URI="
 "
 
 SPDLOG_SRC_URI="
-	https://github.com/gabime/spdlog/archive/v${SPDLOG_VER}.tar.gz -> ${PN}-spdlog-v${SPDLOG_VER}.tar.gz
+	https://github.com/gabime/spdlog/archive/v${SPDLOG_VER}.tar.gz -> ${PN}-spdlog-${SPDLOG_VER}.tar.gz
 	https://wrapdb.mesonbuild.com/v2/spdlog_${SPDLOG_VER}-1/get_patch -> ${PN}-spdlog-${SPDLOG_VER}-1-wrap.zip
 "
 
