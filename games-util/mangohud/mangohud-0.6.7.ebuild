@@ -16,6 +16,7 @@ MY_PV=${PV/_p/-}
 
 IMGUI_VER="1.81"
 SPDLOG_VER="1.8.5"
+NLOHMANN_JSON_VER="3.10.5"
 
 IMGUI_SRC_URI="
 	https://github.com/ocornut/imgui/archive/v${IMGUI_VER}.tar.gz -> ${PN}-imgui-${IMGUI_VER}.tar.gz
@@ -27,7 +28,11 @@ SPDLOG_SRC_URI="
 	https://wrapdb.mesonbuild.com/v2/spdlog_${SPDLOG_VER}-1/get_patch -> ${PN}-spdlog-${SPDLOG_VER}-1-wrap.zip
 "
 
-SRC_URI="${IMGUI_SRC_URI} ${SPDLOG_SRC_URI}"
+NLOHMANN_JSON_URI="
+	https://github.com/nlohmann/json/releases/download/v${NLOHMANN_JSON_VER}/include.zip -> ${PN}-nlohmann_json-${NLOHMANN_JSON_VER}.zip
+"
+
+SRC_URI="${IMGUI_SRC_URI} ${SPDLOG_SRC_URI} ${NLOHMANN_JSON_URI}"
 
 if [ ${PV} = "9999" ]; then
 	inherit git-r3
@@ -40,7 +45,7 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="+dbus debug +X xnvctrl wayland video_cards_nvidia"
+IUSE="+dbus debug mangoapp +X xnvctrl wayland video_cards_nvidia"
 REQUIRED_USE="
 	|| ( X wayland )
 	xnvctrl? ( video_cards_nvidia )"
@@ -52,6 +57,7 @@ DEPEND="
 	media-libs/vulkan-loader[${MULTILIB_USEDEP}]
 	media-libs/libglvnd[$MULTILIB_USEDEP]
 	dbus? ( sys-apps/dbus[${MULTILIB_USEDEP}] )
+	mangoapp? ( media-libs/glfw[${MULTILIB_USEDEP}] )
 	X? ( x11-libs/libX11[${MULTILIB_USEDEP}] )
 	video_cards_nvidia? (
 		x11-drivers/nvidia-drivers[${MULTILIB_USEDEP}]
@@ -66,6 +72,8 @@ src_unpack() {
 
 	mv "${WORKDIR}/imgui-${IMGUI_VER}" "${S}/subprojects" || die
 	mv "${WORKDIR}/spdlog-${SPDLOG_VER}" "${S}/subprojects" || die
+	mkdir "${S}/subprojects/nlohmann_json-${NLOHMANN_JSON_VER}" || die
+	mv "${WORKDIR}/include" "${WORKDIR}/single_include" "${WORKDIR}/LICENSE.MIT" "${WORKDIR}/meson.build" "${S}/subprojects/nlohmann_json-${NLOHMANN_JSON_VER}" || die
 }
 
 multilib_src_configure() {
@@ -73,6 +81,9 @@ multilib_src_configure() {
 		-Duse_system_vulkan=enabled
 		-Dappend_libdir_mangohud=false
 		-Dinclude_doc=false
+		-Dmangohudctl=true
+		$(meson_use mangoapp mangoapp)
+		$(meson_use mangoapp mangoapp_layer)
 		$(meson_feature video_cards_nvidia with_nvml)
 		$(meson_feature xnvctrl with_xnvctrl)
 		$(meson_feature X with_x11)
