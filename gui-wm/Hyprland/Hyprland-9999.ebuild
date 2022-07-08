@@ -44,6 +44,10 @@ BDEPEND="
 	dev-util/vulkan-headers
 	dev-libs/wayland-protocols
 	x11-base/xorg-proto
+	|| (
+		>=sys-devel/gcc-12[cxx]
+		>=sys-devel/clang-15[libcxx]
+	)
 "
 
 src_install() {
