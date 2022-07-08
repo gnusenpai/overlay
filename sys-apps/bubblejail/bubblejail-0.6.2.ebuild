@@ -15,7 +15,7 @@ if [[ ${PV} == 9999 ]]; then
 else
 	SRC_URI="https://github.com/igo95862/bubblejail/releases/download/${PV}/${P}.tar.gz"
 	S="${WORKDIR}"
-	KEYWORDS=""
+	KEYWORDS="~amd64 ~x86"
 fi
 
 LICENSE="GPL-3"
