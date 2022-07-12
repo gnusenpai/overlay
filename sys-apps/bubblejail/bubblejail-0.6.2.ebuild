@@ -32,7 +32,7 @@ RDEPEND="
 		dev-python/pyxdg[${PYTHON_USEDEP}]
 		dev-python/tomli[${PYTHON_USEDEP}]
 		dev-python/tomli-w[${PYTHON_USEDEP}]
-		dev-python/PyQt5[${PYTHON_USEDEP}]
+		dev-python/PyQt5[${PYTHON_USEDEP},widgets]
 		sys-libs/libseccomp[${PYTHON_USEDEP}]
 	')
 "
