@@ -47,9 +47,9 @@ multilib_src_install() {
 			ARCH=x86_64
 			;;
 	esac
-	exeinto /usr/$(get_libdir)/${WINETARGET}/wine/${ARCH}-unix
+	exeinto /usr/lib/${WINETARGET}/wine/${ARCH}-unix
 	doexe *.so
-	insinto /usr/$(get_libdir)/${WINETARGET}/wine/${ARCH}-windows
+	insinto /usr/lib/${WINETARGET}/wine/${ARCH}-windows
 	doins *.dll
 }
 
