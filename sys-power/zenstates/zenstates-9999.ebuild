@@ -2,7 +2,7 @@
 # Copyright 2022 gnusenpai
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8..10} pypy3 )
 
