@@ -33,7 +33,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [gui-wm/river](gui-wm/river)
 - [media-plugins/nvidia-vaapi-driver](media-plugins/nvidia-vaapi-driver)
 - [media-sound/lingot](media-sound/lingot)
-- [media-video/syncplay](media-video/syncplay)
 - [net-misc/rtsp-simple-server](net-misc/rtsp-simple-server)
 - [sys-apps/pacman-mirrorlist](sys-apps/pacman-mirrorlist)
 - [sys-apps/pacman](sys-apps/pacman)
