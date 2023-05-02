@@ -27,7 +27,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [games-util/lutris](games-util/lutris) (removes WebKit)
 - [games-util/mangohud](games-util/mangohud)
 - [games-util/opentrack](games-util/opentrack)
-- [gui-wm/gamescope](gui-wm/gamescope)
+- [gui-wm/gamescope-9999](gui-wm/gamescope)
 - [gui-wm/river](gui-wm/river)
 - [media-plugins/nvidia-vaapi-driver](media-plugins/nvidia-vaapi-driver)
 - [media-sound/lingot](media-sound/lingot)
