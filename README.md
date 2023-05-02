@@ -36,7 +36,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [media-sound/lingot](media-sound/lingot)
 - [media-video/syncplay](media-video/syncplay)
 - [net-misc/rtsp-simple-server](net-misc/rtsp-simple-server)
-- [net-misc/streamlink](net-misc/streamlink)
 - [sys-apps/pacman-mirrorlist](sys-apps/pacman-mirrorlist)
 - [sys-apps/pacman](sys-apps/pacman)
 - [sys-kernel/vanilla-sources-5.12.19](sys-kernel/vanilla-sources)
