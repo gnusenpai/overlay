@@ -5,7 +5,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 ### Ebuilds that I've written:
 - [app-misc/glow](app-misc/glow)
 - [app-misc/pywal](app-misc/pywal)
-- [dev-python/py-zopfli](dev-python/py-zopfli)
 - [dev-python/pynvml](dev-python/pynvml)
 - [games-fps/vkquake](games-fps/vkquake)
 - [gui-apps/chatterino](gui-apps/chatterino)
