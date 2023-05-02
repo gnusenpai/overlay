@@ -7,7 +7,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [app-misc/pywal](app-misc/pywal)
 - [dev-python/pynvml](dev-python/pynvml)
 - [games-fps/vkquake](games-fps/vkquake)
-- [gui-apps/chatterino](gui-apps/chatterino)
 - [gui-apps/wpgtk](gui-apps/wpgtk)
 - [gui-wm/Hyprland](gui-wm/Hyprland)
 - [media-gfx/realcugan-ncnn-vulkan](media-gfx/realcugan-ncnn-vulkan)
