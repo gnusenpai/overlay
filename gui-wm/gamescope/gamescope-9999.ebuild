@@ -1,4 +1,4 @@
-# Copyright 2022 Gentoo Authors
+# Copyright 2022-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -62,6 +62,7 @@ DEPEND="
 	x11-libs/xcb-util-wm
 	dev-util/glslang
 	media-video/pipewire
+	dev-cpp/benchmark
 "
 RDEPEND="${DEPEND}"
 BDEPEND="
