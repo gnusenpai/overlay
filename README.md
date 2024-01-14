@@ -21,7 +21,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [app-emulation/wineasio](app-emulation/wineasio)
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
-- [gui-wm/river](gui-wm/river)
 - [media-plugins/nvidia-vaapi-driver](media-plugins/nvidia-vaapi-driver)
 - [media-sound/lingot](media-sound/lingot)
 - [net-misc/rtsp-simple-server](net-misc/rtsp-simple-server)
