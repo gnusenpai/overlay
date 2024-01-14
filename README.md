@@ -22,7 +22,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
 - [sys-apps/pacman-mirrorlist](sys-apps/pacman-mirrorlist)
-- [sys-apps/pacman](sys-apps/pacman)
 - [sys-kernel/vanilla-sources-5.12.19](sys-kernel/vanilla-sources)
 - [sys-kernel/zenpower](sys-kernel/zenpower)
 - [sys-power/zenstates](sys-power/zenstates)
