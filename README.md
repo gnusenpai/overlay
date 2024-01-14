@@ -20,7 +20,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 ### Other software:
 - [app-admin/cpuset](app-admin/cpuset)
 - [app-emulation/wineasio](app-emulation/wineasio)
-- [games-util/mangohud](games-util/mangohud)
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
 - [gui-wm/river](gui-wm/river)
