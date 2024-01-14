@@ -21,7 +21,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [app-emulation/wineasio](app-emulation/wineasio)
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
-- [net-misc/rtsp-simple-server](net-misc/rtsp-simple-server)
 - [sys-apps/pacman-mirrorlist](sys-apps/pacman-mirrorlist)
 - [sys-apps/pacman](sys-apps/pacman)
 - [sys-kernel/vanilla-sources-5.12.19](sys-kernel/vanilla-sources)
