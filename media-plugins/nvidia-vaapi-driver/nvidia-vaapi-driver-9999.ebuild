@@ -1,1 +1,0 @@
-nvidia-vaapi-driver-0.0.6.ebuild
