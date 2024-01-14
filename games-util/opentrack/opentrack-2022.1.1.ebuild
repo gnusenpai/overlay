@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="Head tracking software for MS Windows, Linux, and Apple OSX"
 HOMEPAGE="https://github.com/opentrack/opentrack"
@@ -41,5 +41,5 @@ src_configure() {
 	local mycmakeargs=(
 		-DSDK_WINE=$(usex wine)
 	)
-	cmake-utils_src_configure
+	cmake_src_configure
 }
