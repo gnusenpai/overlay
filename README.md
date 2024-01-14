@@ -21,7 +21,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 
 ### Other software:
 - [app-admin/cpuset](app-admin/cpuset)
-- [app-containers/distrobox](app-containers/distrobox)
 - [app-crypt/archlinux-keyring](app-crypt/archlinux-keyring)
 - [app-emulation/wineasio](app-emulation/wineasio)
 - [dev-util/arch-install-scripts](dev-util/arch-install-scripts)
