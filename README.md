@@ -23,6 +23,5 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
 - [sys-kernel/zenpower](sys-kernel/zenpower)
 - [sys-power/zenstates](sys-power/zenstates)
-- [x11-drivers/nvidia-drivers-460.67](x11-drivers/nvidia-drivers)
 - [x11-misc/dunst-1.6.1](x11-misc/dunst)
 - [x11-wm/bspwm-9999](x11-wm/bspwm)
