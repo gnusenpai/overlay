@@ -7,7 +7,7 @@ DESCRIPTION="A NordVPN Wireguard (\"NordLynx\") client in POSIX shell"
 HOMEPAGE="https://github.com/phirecc/wgnord"
 SRC_URI="https://github.com/phirecc/wgnord/archive/refs/tags/${PV}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~*"
 
