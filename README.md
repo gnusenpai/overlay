@@ -16,7 +16,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [x11-themes/breeze-xcursors](x11-themes/breeze-xcursors)
 
 ### Other software:
-- [app-admin/cpuset](app-admin/cpuset)
 - [app-emulation/wineasio](app-emulation/wineasio)
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
