@@ -1,0 +1,10 @@
+#!/sbin/openrc-run
+# Copyright 2024 gnusenpai
+# Distributed under the terms of the GNU General Public License v2
+
+supervisor=supervise-daemon
+command=/usr/bin/turnstiled
+
+depend() {
+    before getty xdm
+}

@@ -14,6 +14,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [net-vpn/wgnord](net-vpn/wgnord)
 - [sys-apps/bubblejail](sys-apps/bubblejail)
 - [sys-auth/pam_rundir](sys-auth/pam_rundir)
+- [sys-auth/turnstile](sys-auth/turnstile)
 - [x11-misc/BigBagKbdTrixXKB](x11-misc/BigBagKbdTrixXKB)
 - [x11-themes/breeze-xcursors](x11-themes/breeze-xcursors)
 
