@@ -1,1 +1,0 @@
-obs-nvfbc-0.0.5.ebuild

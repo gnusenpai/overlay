@@ -7,7 +7,6 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [gui-apps/wpgtk](gui-apps/wpgtk)
 - [media-gfx/realcugan-ncnn-vulkan](media-gfx/realcugan-ncnn-vulkan)
 - [media-sound/helvum-9999](media-sound/helvum)
-- [media-video/obs-nvfbc](media-video/obs-nvfbc)
 - [net-libs/librist](net-libs/librist)
 - [net-misc/live-dl](net-misc/live-dl)
 - [net-vpn/wgnord](net-vpn/wgnord)
