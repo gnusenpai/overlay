@@ -22,4 +22,5 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
 - [sys-power/zenstates](sys-power/zenstates)
+- [sys-process/dinit](sys-process/dinit)
 - [x11-wm/bspwm-9999](x11-wm/bspwm)
