@@ -18,6 +18,5 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [app-emulation/wineasio](app-emulation/wineasio)
 - [games-util/opentrack](games-util/opentrack)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
-- [sys-kernel/zenpower](sys-kernel/zenpower)
 - [sys-power/zenstates](sys-power/zenstates)
 - [x11-wm/bspwm-9999](x11-wm/bspwm)
