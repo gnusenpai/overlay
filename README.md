@@ -3,7 +3,6 @@ A personal collection of ebuilds that I maintain.
 Credits are in the copyright notice of each and sometimes also in metadata.xml.
 
 ### Ebuilds that I've written:
-- [dev-python/pynvml](dev-python/pynvml)
 - [games-fps/vkquake](games-fps/vkquake)
 - [gui-apps/wpgtk](gui-apps/wpgtk)
 - [media-gfx/realcugan-ncnn-vulkan](media-gfx/realcugan-ncnn-vulkan)
