@@ -3,14 +3,17 @@ A personal collection of ebuilds that I maintain.
 Credits are in the copyright notice of each and sometimes also in metadata.xml.
 
 ### Ebuilds that I've written:
+- [dev-python/nvidia-ml-py](dev-python/nvidia-ml-py)
 - [games-fps/vkquake](games-fps/vkquake)
 - [gui-apps/wpgtk](gui-apps/wpgtk)
 - [media-gfx/realcugan-ncnn-vulkan](media-gfx/realcugan-ncnn-vulkan)
+- [media-libs/vkdevicechooser](media-libs/vkdevicechooser)
 - [media-sound/helvum-9999](media-sound/helvum)
 - [net-libs/librist](net-libs/librist)
 - [net-misc/live-dl](net-misc/live-dl)
 - [net-vpn/wgnord](net-vpn/wgnord)
 - [sys-apps/bubblejail](sys-apps/bubblejail)
+- [sys-auth/pam_rundir](sys-auth/pam_rundir)
 - [x11-misc/BigBagKbdTrixXKB](x11-misc/BigBagKbdTrixXKB)
 - [x11-themes/breeze-xcursors](x11-themes/breeze-xcursors)
 
