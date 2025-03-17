@@ -23,6 +23,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 ### Other software:
 - [app-emulation/wineasio](app-emulation/wineasio)
 - [games-util/opentrack](games-util/opentrack)
+- [gui-libs/xdg-desktop-portal-hyprland](gui-libs/xdg-desktop-portal-hyprland) (qt-less)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
 - [sys-power/zenstates](sys-power/zenstates)
 - [sys-process/dinit](sys-process/dinit)
