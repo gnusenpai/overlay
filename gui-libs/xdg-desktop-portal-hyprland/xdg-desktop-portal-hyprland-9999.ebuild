@@ -1,1 +1,1 @@
-xdg-desktop-portal-hyprland-1.3.9.ebuild
+xdg-desktop-portal-hyprland-1.3.9-r1.ebuild
