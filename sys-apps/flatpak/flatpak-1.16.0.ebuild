@@ -13,7 +13,7 @@ SRC_URI="https://github.com/${PN}/${PN}/releases/download/${PV}/${P}.tar.xz"
 LICENSE="LGPL-2.1+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 ~loong ~ppc64 ~riscv x86"
-IUSE="doc introspection seccomp systemd X"
+IUSE="doc introspection seccomp systemd X policykit"
 RESTRICT="test"
 
 RDEPEND="
@@ -38,7 +38,7 @@ RDEPEND="
 	sys-apps/dbus
 	>=sys-fs/fuse-3.1.1:3=
 	sys-apps/xdg-dbus-proxy
-	sys-auth/polkit
+	policykit? ( sys-auth/polkit )
 	X? (
 		x11-apps/xauth
 		x11-libs/libXau:=
@@ -94,6 +94,8 @@ src_configure() {
 		$(meson_feature doc docbook_docs)
 		$(meson_feature seccomp seccomp)
 		$(meson_feature systemd systemd)
+		$(meson_feature policykit system_helper)
+		-Dtests=false
 	)
 
 	meson_src_configure
