@@ -25,6 +25,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [games-util/opentrack](games-util/opentrack)
 - [gui-libs/xdg-desktop-portal-hyprland](gui-libs/xdg-desktop-portal-hyprland) (qt-less)
 - [gui-wm/gamescope-9999](gui-wm/gamescope)
+- [sys-apps/flatpak](sys-apps/flatpak)
 - [sys-power/zenstates](sys-power/zenstates)
 - [sys-process/dinit](sys-process/dinit)
 - [x11-wm/bspwm-9999](x11-wm/bspwm)
