@@ -1,1 +1,1 @@
-zenergy-0.1_p20241010.ebuild
+zenergy-0.1_p20250831.ebuild
