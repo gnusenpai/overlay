@@ -16,6 +16,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [sys-apps/bubblejail](sys-apps/bubblejail)
 - [sys-auth/pam_rundir](sys-auth/pam_rundir)
 - [sys-auth/turnstile](sys-auth/turnstile)
+- [sys-kernel/maccel](sys-kernel/maccel)
 - [sys-kernel/zenergy](sys-kernel/zenergy)
 - [x11-misc/BigBagKbdTrixXKB](x11-misc/BigBagKbdTrixXKB)
 - [x11-themes/breeze-xcursors](x11-themes/breeze-xcursors)
