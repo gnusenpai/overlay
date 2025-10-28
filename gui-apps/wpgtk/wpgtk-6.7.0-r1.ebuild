@@ -17,7 +17,10 @@ KEYWORDS="amd64 x86"
 
 RDEPEND="
 	>=dev-python/pillow-4.2.1
-	>=x11-misc/pywal-3.3.0
+	|| (
+		>=x11-misc/pywal-3.3.0
+		>=x11-misc/pywal16-3.3.0
+	)
 "
 DEPEND="${RDEPEND}"
 
