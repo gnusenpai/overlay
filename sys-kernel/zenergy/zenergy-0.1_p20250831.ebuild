@@ -25,5 +25,9 @@ src_compile() {
 	local modlist=(
 		zenergy=misc:::modules
 	)
+	local modargs=(
+		KDIR="${KV_OUT_DIR}"
+	)
+
 	linux-mod-r1_src_compile
 }
