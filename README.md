@@ -18,6 +18,7 @@ Credits are in the copyright notice of each and sometimes also in metadata.xml.
 - [sys-auth/turnstile](sys-auth/turnstile)
 - [sys-kernel/maccel](sys-kernel/maccel)
 - [sys-kernel/zenergy](sys-kernel/zenergy)
+- [sys-process/void-services](sys-process/void-services)
 - [x11-misc/BigBagKbdTrixXKB](x11-misc/BigBagKbdTrixXKB)
 - [x11-themes/breeze-xcursors](x11-themes/breeze-xcursors)
 

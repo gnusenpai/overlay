@@ -1,0 +1,38 @@
+#!/bin/sh -e
+# Installs a runit service with supervision and logging
+# Adapted from the _vsv function:
+#   Repo: https://github.com/void-linux/void-packages
+#   File: common/environment/setup/install.sh
+
+service=${1##*/}
+facility=${2:-daemon}
+svdir=${D}/etc/sv/${service}
+
+if [ ${#} -lt 1 ] || [ ${#} -gt 2 ]; then
+	printf "vsv: up to 2 arguments expected: <service> [<log facility>]\n"
+	exit 1
+fi
+
+cp -r "${1}" "${D}/etc/sv/"
+grep -Fq 'exec 2>&1' "${svdir}/run" || printf "vsv: service '%s' does not contain 'exec 2>&1' to log stderr\n" "${service}"
+for f in run finish check; do
+    [ -e "${svdir}/${f}" ] && [ ! -L "${svdir}/${f}" ] && chmod 755 "${svdir}/${f}"
+done
+for f in a c d h i k p q t u x 1 2; do
+    [ -e "${svdir}/control/${f}" ] && [ ! -L "${svdir}/control/${f}" ] && chmod 755 "${svdir}/control/${f}"
+done
+
+ln -s "/run/runit/supervise.${service}" "${svdir}/supervise"
+if [ -d "${svdir}/log" ] || [ -L "${svdir}/log" ]; then
+    printf "vsv: overriding default log service\n"
+else
+    mkdir "${svdir}/log"
+    cat <<EOF > "${svdir}/log/run"
+#!/bin/sh
+exec vlogger -t ${service} -p ${facility}
+EOF
+fi
+ln -s "/run/runit/supervise.${service}-log" "${svdir}/log/supervise"
+if [ -e "${svdir}/log/run" ] && [ ! -L "${svdir}/log/run" ]; then
+    chmod 755 "${D}/etc/sv/${service}/log/run"
+fi
