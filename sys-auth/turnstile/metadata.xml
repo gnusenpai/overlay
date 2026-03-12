@@ -2,6 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<use>
-        <flag name="dinit">Enable user services via sys-process/dinit</flag>
+		<flag name="dinit">Enable user services via sys-process/dinit</flag>
+		<flag name="runit">Enable user services via sys-process/runit</flag>
 	</use>
 </pkgmetadata>
