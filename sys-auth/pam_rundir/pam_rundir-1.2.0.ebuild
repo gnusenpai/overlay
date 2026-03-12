@@ -1,4 +1,4 @@
-# Copyright 2024 gnusenpai
+# Copyright 2024-2026 gnusenpai
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -33,4 +33,10 @@ src_compile() {
 	emake CC="$(tc-getCC)" \
 		CFLAGS="${CFLAGS}" \
 		LDFLAGS="${LDFLAGS}"
+}
+
+pkg_postinst() {
+	elog "To enable pam_rundir, add"
+	elog "-session	optional	pam_rundir.so"
+	elog "to the end of /etc/pam.d/system-login."
 }
