@@ -36,6 +36,11 @@ src_prepare() {
 	sed \
 		-e "s|env - PATH=\$PATH|env - PATH=\$PATH SVDIR=/var/service|" \
 		-i 2 || die
+
+	# Modern udev prints an error if told to exit when not running
+	sed \
+		-e "s|]|] \&\& [ ! -L /var/service/udevd ]|" \
+		-i shutdown.d/60-udev.sh || die
 }
 
 src_install() {
