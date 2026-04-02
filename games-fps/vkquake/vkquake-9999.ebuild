@@ -1,1 +1,1 @@
-vkquake-1.31.3.ebuild
+vkquake-1.34.0.ebuild
